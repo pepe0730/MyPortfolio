@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b24292ab52.js" crossorigin="anonymous"></script>
+
+    <title>Gami's Web Page</title>
+
+    <!-- ja font-family -->
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    
+
+    <!-- logo -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <h3><a id="title" href="index.html">Gami Portfolio</a></h3>
+        <p class="d-none d-md-block">〜mens model〜</p>
+      </div>
+      <div class="header-right">
+        <ul class="d-none d-md-block">
+          <li><a href="index.html" id="nav_1">Profile</a></li>
+          <li><a href="index.html" id="nav_2">My work</a></li>
+          <li><a href="index.html" id="nav_3">Contact</a></li>
+        </ul>
+        <a id="menu-btn" class="bar d-block d-md-none"><i class="fas fa-bars"></i></a>
+      </div>
+    </header>
+    <div id="slide-menu" class="d-md-none slide-menu">
+      <h2>Pages</h2>
+      <ul>
+        <li><a href="index.html">Top Page</a></li>
+        <li><a href="product_2.html" id="nav_2">Product 2</a></li>
+      </ul>
+    </div>
+    <div id="main">
+        <div id="top-page" class="d-flex">
+          <div class="container text-right">
+            <h1 id="typewriter"></h1>
+            <h3>Mens model & System Engineer</h3>
+          </div>
+        </div>
+        <div class="product_image text-center">
+          <h2>全国大学向け<br class="d-md-none">時間割アプリ</h2>
+          <img src="img/product_1.png">
+        </div>
+        <div class="introduction">
+          <div class="container">
+            <h3>
+                全国の大学が利用できる、<br>
+                授業管理プラットフォーム。<br>
+                スマホでも簡単履修登録、教授と生徒の共同利用、<br/>
+                洗練されたユーザインターフェイス。
+            </h3>
+            <div class="d-block d-md-flex justify-content-around">
+              <div class="introduction_item mr-5">
+                <img class="mb-5 image1" src="img/introduction_1.png" alt="introduction_1">
+                <div class="content ml-3">
+                  <h5>シンプルなUI/UX</h5>
+                  <p class="pb-5">シンプルな配色と無駄を省いたUI設計が、<br>従来の大学サイトにはない使いやすさを演出。<br>簡単アクション、２ステップで履修登録</p>
+                </div>
+              </div>
+              <div class="introduction_item">
+                <div class="content ml-3">
+                  <h5 class="pt-5">スマホ完全対応</h5>
+                  <p>時間割はカルーセル形式で表示。<br>スマホ内で大学に登録されている履修を確認・登録</p>
+                </div>
+                <img class="mt-5 image2" src="img/introduction_3png.png" alt="">
+              </div>
+            </div>
+            <div class="distribution text-center">
+              <h5 class="mb-5">テストユーザを配布しています。</h5>
+              <p>ユーザコード \ st10000001</p>
+              <p>大学コード \ 10000000</p>
+              <p>パスワード \ student_1axxx</p>
+              <a class="d-block mt-5" href="https://servlet-timetable-webapp-pepe.herokuapp.com" class="text-primary">テストプレイ > </a>
+              <p class="text-small mt-5">※1 herokuの無料版を用いて公開しております。<br>そのため通信速度がとても遅いです。</p>
+              <p class="text-small">※2 あくまでポートフォリオとして公開しております。<br>本アプリケーションは製品化しておりません。</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <p class="text-center">create by Shunpei Kambayashi</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
